@@ -1,0 +1,65 @@
+/*
+Theme Name: Enfold Child
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Kriesi
+Author URI: http://www.kriesi.at
+Template: enfold
+*/
+
+@font-face {
+    font-family: 'MrEavesXLModOT-Book';
+    src: url('webfonts/MrEavesXLModOT-Book.eot'); /* IE9 Compat Modes */
+    src: url('webfonts/MrEavesXLModOT-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('webfonts/MrEavesXLModOT-Book.woff') format('woff'), /* Pretty Modern Browsers */
+    url('webfonts/MrEavesXLModOT-Book.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('webfonts/MrEavesXLModOT-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Hickory-Jack';
+    src:url('webfonts/Hickory-Jack.ttf.woff') format('woff'),
+        url('webfonts/Hickory-Jack.ttf.svg#Hickory-Jack') format('svg'),
+        url('webfonts/Hickory-Jack.ttf.eot'),
+        url('webfonts/Hickory-Jack.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* CUSTOM CSS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'MrEavesXLModOT-Book'!important;
+	line-height: 100%!important;
+}
+body p, body {
+	font-family: 'MrEavesXLModOT-Book'!important;
+	line-height: 120%!important;
+}
+
+
+#top .avia-button.avia-color-light {
+    color: #fff;
+    border: 1px solid #fff!important;
+    background: transparent;
+}
+
+#top .avia-button.avia-color-dark {
+    border: 1px solid #000!important;
+    color: rgba(0,0,0,1)!important;
+    border-color: rgba(0,0,0,1)!important;
+    background: transparent;
+}
+
+.avia-button.avia-size-large {
+    padding: 15px 60px 13px!important;
+    font-size: 16px!important;
+	font-weight: 700!important;
+    min-width: 250px!important;
+}
+
+body div .avia-button {
+	border-radius: 0!important;
+}
+
